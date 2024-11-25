@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dynamic Resume Builder</title>
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- The html2pdf library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+
+</head>
+
+<body>
+
+  <div class="container">
+
+        <h1><u>Dynamic Resume Builder</u></h1>
+
+  <div>
+    <form id="resumeForm">
+      <label for="name">Name:</label>
+      <br>
+      <input type="text" id="name" required><br><br>
+
+      <label for="email">Email:</label>
+      <br>
+      <input type="email" id="email" required><br><br>
+
+      <label for="phone">Phone:</label>
+      <br>
+      <input type="text" id="phone" required><br><br>
+
+      <label for="education">Education:</label>
+      <br>
+      <textarea id="education" rows="4" cols="50"required></textarea><br><br>
+      
+      <label for="skills">Skills:</label>
+      <br>
+      <textarea id="skills" rows="4" cols="50" required></textarea><br><br>
+
+      <label for="workExperience">Work Experience:</label>
+      <br>
+      <textarea id="workExperience" rows="4" cols="50" required></textarea><br><br>
+
+      <button type="submit">Generate Resume</button>
+    </form>
+  </div>
+  <br>
+  <div id="resume"><b>Your genrated Resume will come below :- </b></div>
+  <br>
+  <button id="download-btn">Download as PDF</button>
+  <br>
+  <!-- Add new elements for unique URL and sharing -->
+  <br>
+  <!-- Shareable Link Section -->
+<div id="share-container">
+  <label for="shareableLink"><b>Shareable Link:</b></label>
+  <br>
+  <input type="text" id="shareableLink" readonly>
+  <br><br>
+  <button id="copyLink">Copy Link</button>
+</div>
+
+
+
+</body>
+
+<!--  for installation npm install html2pdf.js -->
+<!-- The JavaScript file -->
+<script src="resumeBuilder.js"></script>
+
+</html>

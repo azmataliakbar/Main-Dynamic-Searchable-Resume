@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ebe7e7;
+  text-shadow: 4px 4px 16px rgb(103, 102, 102);
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.form-section {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+}
+.resume-section {
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+#name, #email, #phone {
+  box-shadow: 2px 2px 4px rgb(109, 109, 109);
+  border-radius: 5px;
+}
+#education, #skills, #workExperience {
+  box-shadow: 4px 4px 8px rgb(108, 108, 108);
+  border-radius: 10px;
+}
+
+h2 {
+  color: #333;
+}
+.resume {
+  margin-top: 20px;
+}
+textarea {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+input {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  font-family: Arial, Helvetica, sans-serifcursive;
+}
+label {
+  font-weight: bold;
+}
+button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 10px;
+  box-shadow: 4px 4px 8px gray;
+  text-shadow: 2px 2px 4px rgb(120, 120, 120);
+}
+button:hover {
+  background-color: #555;
+}
+
+
+  #share-container {
+    margin-top: 20px;
+  }
+
+  #shareableLink {
+    width: 80%;
+    padding: 8px;
+    font-size: 14px;
+    margin-top: 5px;
+    border-radius: 10px;
+  }
+
+  #copyLink {
+    margin-top: 10px;
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+
